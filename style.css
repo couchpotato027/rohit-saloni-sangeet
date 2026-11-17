@@ -281,8 +281,9 @@ h1, h2, h3, h4, p { margin: 0; }
 .fam-block { padding-block: 1rem; border-top: 1px solid rgba(176,141,62,.3); text-align: center; }
 .fam-block span { font-family: var(--font-ui); font-size: .62rem; letter-spacing: .3em; text-transform: uppercase; color: var(--gold); display: block; margin-bottom: .3rem; }
 .fam-block p { line-height: 1.55; }
-.firm { margin-top: 2.5rem; text-align: center; color: var(--ink-soft); font-style: italic; }
-.firm span { display: block; font-family: var(--font-ui); font-style: normal; font-size: .62rem; letter-spacing: .3em; text-transform: uppercase; color: var(--gold); }
+.firm { margin-top: 2.5rem; text-align: center; color: var(--ink); font-weight: 600; font-size: 1.15rem; font-style: italic; }
+.firm span { display: block; font-family: var(--font-ui); font-style: normal; font-size: .7rem; font-weight: 500; letter-spacing: .3em; text-transform: uppercase; color: var(--rose-deep); margin-bottom: .2rem; }
+.fam-col .fam-block:first-child { border-top: 0; padding-top: 0; }
 @media (min-width: 860px) { .fam-grid { grid-template-columns: 1fr 1fr; } }
 
 /* ===== Footer ===== */
